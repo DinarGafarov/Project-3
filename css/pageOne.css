@@ -1,0 +1,977 @@
+/* Блок 1 */
+
+.main {
+    position: relative;
+}
+.block1 {
+    background-image: url(../img/img-block1/bg-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.block1-tetx {
+     width: 28.85rem;
+     margin-top: 11rem;
+}
+.block1-tetx h1{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.68rem;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+.block1-tetx h1 span{
+    color: #FF5A30;
+}
+.block1-tetx p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.block1-button {
+    margin-top: 3.05rem;
+    display: flex;
+    flex-direction: row;
+}
+.button__learnmore {
+    margin-right: 1.2rem;    
+}
+.button__learnmore button{
+    width: 13.9rem;
+    height: 2.6rem;
+    background: none;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 2.6rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.button__submit {
+}
+.button__submit button {
+    width: 11.2rem;
+    height: 2.6rem;
+    background-color: #FF5A30;
+    border-radius: 0.2rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 2.6rem;
+    color: #FFFFFF;
+    border: 0px;
+}
+.button__learnmore button:hover{
+    background-color: #656362;
+
+}
+.button__submit button:hover{
+    /* filter: brightness(1.5); */
+    background-color: #fc491d;
+}
+
+.block1-scroll {
+    margin-top: 9rem;
+    margin-bottom: 6rem;
+}
+.scroll {
+    display: flex;
+    flex-direction: row;
+}
+.scroll-item {
+    margin-right: 9rem;
+}
+.scroll-item a {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: rgb(201, 198, 198);
+    outline: none;
+    text-decoration: none; 
+    position: relative;
+}
+
+.scroll-item a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(84, 82, 82);
+    bottom: -0.75rem;
+    left: 0;
+    padding-right: 8.7rem;
+    transition: 0.4s;
+}
+
+.scroll-item a:hover,
+.scroll-item a::after {
+    filter: brightness(1.5);
+    transition: 0.4s;
+    color: #FFFFFF;
+    background-color: FFFFFF
+}
+
+
+/* Block 2 */
+
+.block2 {
+    position: relative;
+}
+
+.block2-tetx {
+    text-align: center;
+    margin-top: 6rem;
+}
+.block2-tetx h2 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    color: #1E212C
+}
+.block2-tetx p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.35rem;
+    color: #1E212C;
+    margin-top: 1.5rem;
+}
+.block2-video {
+    width: 100%;
+    height: 25rem;
+    margin-top: 3rem;
+}
+.block2-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Block 3 */
+
+.block3 {
+    position: relative;
+}
+
+.block3-header {
+    text-align: center;
+    
+}
+.block3-header h2 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    color: #1E212C;
+    margin-top: 9rem;
+}
+.block3-header p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.35rem;
+    color: #1E212C;
+    margin-top: 1rem;
+}
+
+.block3-blocks {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.blocks-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 14.25rem;
+}
+.blocks-item__svg svg {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.blocks-item span{
+    margin-top: 1.2rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #1E212C;
+}
+.blocks-item p{
+    margin-top: 0.5rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.28rem;
+    color: #1E212C;
+    text-align: center;
+}
+
+/* Block4 */
+
+.block4 {
+    position: relative;
+    width: 100%;
+    height: 12.15rem;
+    margin-top: 6rem;    
+}
+.block4::after {
+    content: '';
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: #E5E8ED;
+    bottom: -1.5rem;
+    left: 0;
+}
+
+
+.block4-content{
+    width: 100%;
+    height: 12.15rem;
+    background-color: #ffffff;
+    border-top: 1px solid transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.block4-header {
+    margin-top: 2.4rem;
+}
+.block4-header h3 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #1E212C;
+    text-align: center;
+}
+
+.block4-form {
+    margin-top: 1.6rem;
+}
+.block4-form form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.block4-form input {
+    border: 1px solid gray;
+}
+
+.form-input::placeholder{
+    color: #64656a;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.05rem;
+    
+}
+.form-text::placeholder{
+    color: #64656a;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding: 0.8rem 0.55rem;
+}
+
+.form-name,
+.form-tel,
+.form-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-name input,
+.form-tel input,
+.form-text input,
+.form-button button{
+    width: 13rem;
+    height: 2.2rem;
+    margin-right: 1.2rem;
+    border-radius: 0.2rem;
+    padding-right: 0.5rem;
+    background: #D7DADD;
+    border: 0;
+    padding-left: 0.5rem;
+
+}
+.form-text input{
+    width: 20.7rem;
+    
+}
+.form-text textarea{
+    width: 20.7rem;
+    height: 2.2rem;
+    padding: 0;
+    border: 0;
+}
+.form-name label,
+.form-tel label,
+.form-text label{
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.05rem;
+    color: #1E212C;
+    margin-bottom: 0.4rem;
+}
+.form-tel{
+
+}
+.form-text{
+
+}
+.form-button{
+    display: flex;
+    align-items: flex-end;
+}
+.form-button button{
+    width: 5.2rem;
+    background-color: #FF5A30;
+    text-transform: uppercase;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+/* Block 5  */
+
+.block5 {
+    position: relative;
+    background-color: #E5E8ED;
+    border: 1px solid transparent;
+}
+
+.block5-header {
+    margin-top: 6rem;
+}
+.block5-header h2{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #1E212C;
+    text-align: center;
+    line-height: 2.99rem;
+}
+.block5-header p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #787A80;
+    line-height: 1.35rem;
+    text-align: center;
+}
+.block5-content {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.block5-content__item {
+    display: flex;
+    justify-content: space-between;
+}
+.item-content {
+    width: 14.25rem;
+    height: 14.25rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 15px 7px rgba(198, 200, 202, 0.58);
+    border-radius: 0.2rem;
+    overflow: hidden;
+    transition-duration: 0.4s;
+}
+.item-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    z-index: 1;
+    transition-duration: 0.4s;
+
+}
+ 
+.item-content__svg {
+    position: relative;
+    z-index: 1;
+}
+.item-content__svg  svg{
+    width: 2.6rem;
+    height: 2.6rem;
+    fill:"#FF5A30";
+    transition-duration: 0.4s;
+
+}
+.item-content__text {
+    position: relative;
+    z-index: 1;
+    margin-top: 1.2rem;
+
+}
+.item-content__text a {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #1E212C;
+    line-height: 1.5rem;
+    text-decoration: none;
+    outline: none;
+    transition-duration: 0.4s;
+}
+.item-bg__img {
+    width: 14.25rem;
+    height: 14.25rem;
+    position: absolute;
+}
+.item-bg__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-content:hover .item-bg {
+    background-color: rgba(87, 87, 88, 0.5);
+    transition: 0.5s;
+}
+.item-content:hover .item-content__text a{
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.item-content:hover .item-content__svg  svg{
+    fill: white;
+    transition: 0.5s;
+}
+
+/* .block5-footer {
+    margin-top: 4.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.block5-footer span{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #1E212C;
+    line-height: 2.1rem;
+    margin-right: 2rem;
+}
+.block5-footer__button {
+    width: 10.35rem;
+    height: 2.6rem;
+    background-color: #FF5A30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+}
+.block5-footer__button a{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #1E212C;
+    line-height: 2.6em;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+} */
+
+.block5-footer__button:hover {
+   background-color: #f03709;
+   transition: .3s;
+}
+
+/* Block 6 */
+
+
+.block6 {
+    position: relative;
+}
+.block6-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+.header-text {
+}
+.header-text h2{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #1E212C;
+    line-height: 3rem;
+    width: 35.25rem;
+}
+
+/* Скролл стрелки  */
+.content-scrollbtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.owl-prev,
+.owl-next {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: 0;
+    background-color: #eeecec7f;
+}
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: #FF5A30;
+    transition: 0.4s
+}
+
+.owl-prev:hover.owl-prev svg,
+.owl-next:hover.owl-next svg
+{
+   fill: #ffffff;
+    transition: 0.4s
+}
+
+
+.block6-content {
+
+}
+.content {
+    position: relative;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block6-content__bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(34, 60, 80, 0.27);
+    z-index: 1;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.content-item {
+    width: 19.5rem;
+    height: 22rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 48px 52px -25px rgba(34, 60, 80, 0.27);
+    overflow: hidden;
+    border-radius: 0.2rem;
+     
+}
+.content-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.item-text {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(45%);
+    background-color: #FFFFFF;
+    transition: .4s;
+    z-index: 2;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.content-item:hover .item-text {
+     transform: translateY(0%);
+}
+.content-item:hover .block6-content__bg{
+    opacity: 0;
+}
+.block6-content__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.8rem;
+    position: relative;
+}
+.block6-content__text h3{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #1E212C;
+    line-height: 1.5rem;
+}
+.block6-content__text span{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #787A80;
+    line-height: 1.05rem;
+    padding-top: 0.4rem;
+}
+.block6-content__text a{
+    width: 8.6rem;
+    height: 2.2rem;
+    text-decoration: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FF5A30;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #FF5A30;
+    text-transform: uppercase;
+    border-radius: 0.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+/* Block7 */
+
+.block7 {
+    position: relative;
+    border-top: 1px solid transparent;
+    background-color: #F4F5F6;
+}
+
+.block7-header {
+    margin-top: 4rem;
+}
+.block7-header h3{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #1E212C;
+    line-height: 3rem;
+    text-align: center;
+}
+.block7-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.block7-content-item{
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 2rem;
+}
+.block7-content-item a {
+    width: 120px;
+    height: 64px;
+    display: block;
+}
+.block7-content-item a svg{
+    width: 120px;
+    height: 64px;
+}
+
+
+
+.block7-comments {
+    margin-top: 8.5rem;
+    bottom: 6.05rem;
+    width: 30rem;
+    position: relative;
+}
+.block7-comments__header span {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #1E212C;
+    line-height: 3rem;
+}
+.block7-comments__item {
+    margin-top: 3rem;
+}
+.block7-comments__item-img {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.block7-comments__item-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.block7-comments__item-text {
+    margin-top: 1.2rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #1E212C;
+    line-height: 1.28rem;
+}
+.block7-comments__item-name {
+    margin-top: 1.2rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #1E212C;
+    line-height: 1.28rem;
+    display: block;
+}
+.block7-comments__item-company {
+    margin-top: 0.2rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #787A80;
+    line-height: 1.05rem;
+}
+
+.block7-comments__scrollbtn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.block7-comments__right-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(15%);
+    border-radius: 0.1rem;
+}
+
+/* Block 8 */
+
+.block8 {
+    display: flex;
+}
+
+.block8-header {
+    margin-top: 8rem;
+}
+
+.block8-header h3{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #1E212C;
+    line-height: 3rem;
+    text-align: center;
+}
+.block8-container__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem auto 9rem;
+    width: 37rem;
+    justify-content: space-between;
+}
+.block8-container__item p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #1E212C;
+    line-height: 1.05rem;
+    margin-top: 1rem;
+}
+.block8-content {
+}
+.block8-content-item {
+    position: relative;
+    width: 7.4rem;
+    height: 7.4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.block8-content-item__first{
+    background-color: #f8972882;
+
+}
+.block8-content-item__second{
+    background-color: #f52f6e82;
+}
+.block8-content-item__third{
+    background-color: #5a88fc82;
+}
+.block8-content-item__fourth{
+    background-color: #03CEA4;
+}
+.block8-content-item span{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #343436;
+    line-height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.block8-content-item::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 50%;
+}
+.block8-content-item::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+.block8-content-item__first::before {
+    clip-path: inset(0% 0% 50% 0%);
+    transform: rotate(90deg);
+    border: 5px solid #F89828;
+}
+.block8-content-item__first::after {
+    clip-path: inset(0 50% 0 0);
+    transform: rotate(320deg);
+    border: 5px solid #F89828;
+}
+.block8-content-item__second::before {
+    clip-path: inset(0% 0% 50% 0%);
+    transform: rotate(90deg);
+    border: 5px solid #F52F6E;
+}
+.block8-content-item__second::after {
+    clip-path: inset(0 50% 0 0);
+    transform: rotate(270deg);
+    border: 5px solid #F52F6E;
+}
+.block8-content-item__third::before{
+    clip-path: inset(0 50% 0 0);
+    transform: rotate(180deg);
+    border: 5px solid #5a88fc;
+}
+.block8-content-item__third::after{
+    clip-path: inset(0 50% 0 0);
+    transform: rotate(290deg);
+    border: 5px solid #5a88fc;
+}
+
+
+
+.block8-news {
+}
+.news__header {
+}
+.news__header h3 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #1E212C;
+    line-height: 3rem;
+}
+.block8-news__block {
+    margin-top: 3rem;
+}
+.news__block-item {
+}
+.news__block-content {
+}
+.news__block-content__params {
+}
+.content__params-description__news {
+}
+.content__params-description__date {
+}
+.content__params-description__comment {
+}
+.description__comment-svg {
+}
+.description__comment-counter {
+}
+.news__block-content__description {
+}
+.block8-footer {
+}
+.content-footer {
+}
+.block8-footer__button {
+}
+.content-button {
+}
+
+
+
+
+/* Block 9  */
